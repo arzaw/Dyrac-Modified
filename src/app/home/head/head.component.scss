@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.header{
+    background: url('../../../assets/Vector.png');
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-color: #eedafa;
+    background-size: 100%;
+    text-align: center;
+}
+div.navbar{
+    text-align: left;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 250, 235);
+    position: fixed;
+    top: 10px;
+    width: 90vw;
+    height: 3cm;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 10px ;
+    z-index: +2;
+  }
+
+.nav-btn button{
+    margin-right: 10px ;
+}
+
+div.three{
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+div.first{
+    z-index: +1;
+}
+div.second{
+    z-index: +1;
+}
+div.third{
+    z-index: +1;
+}
+.first img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.second img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.third img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+div.type{
+    position: absolute;
+    top: 75px;
+    height: 8cm;
+    width: 70%;
+    border-radius: 10px;
+    background-color: white;
+    left: 15%;
+    right: 15%;
+    z-index: -1;
+    
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+div.events{
+    margin-top: 40vh;
+    padding-bottom: 10vh ;
+}
+
+div.carou1{
+    height: 5cm;
+    background-color: black;
+    color: white;
+}
+div.carou2{
+    height: 5cm;
+    background-color: blue;
+}
+div.carou3{
+    height: 5cm;
+    background-color: green;
+}
+
+div.caul-text{
+    text-align: left;
+    padding-left: 25px;
+}

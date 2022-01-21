@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+div.header{
+    background: url("../../assets/Vector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+//header
+div.logo{
+    text-align: left;
+}
+
+div.home{
+    text-align: right;
+    margin-top: 8%;
+}
+div.head{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.home-btn button{
+    border-radius: 10px;
+    padding: 7px 15px 7px 15px;
+}
+//header ends
+
+//body
+div.content{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.box-a{
+    background-color: white;
+    height: 50vh;
+    border-top-left-radius: 7px ;
+    border-bottom-left-radius: 7px ;
+    text-align: center;
+}
+
+div.box-b{
+    background-color: #0E90A0;
+    height: 50vh;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px ;
+}
+
+//box-b
+div.qr{
+    text-align: center;
+    margin-top: 30px;
+}
+
+div.message{
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+div.free-demo-btn{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+button.free-demo{
+    background-color:#0E90A0 ;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    width: 5cm;
+    padding: 3px 0px 3px 0px;
+}
+
+//form
+div.form-reg{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+input{
+    background-color: #F1F1F1;
+    border: none;
+    margin-top: 15px;
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+input.name{
+    background-image: url('../../assets/user.png');
+    background-position: 6px 6px;
+}
+input.mail{
+    background-image: url('../../assets/ant-design_mail-outlined.png');
+}
+
+input.phone{
+    background-image: url('../../assets/carbon_phone.png');  
+}
+
+input.tran-id{
+    background-image: url('../../assets/icon-park-outline_transaction.png');
+}
+h3{
+    color: #0E90A0;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+button.reg-btn{
+    background-color:#0E90A0 ;
+    border-radius: 15px;
+    border: 2px solid #0E90A0;
+    color: white;
+    width: 4cm;
+    padding: 3px 0px 3px 0px;
+    margin-top: 20px;
+}

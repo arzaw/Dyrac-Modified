@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.footer{
+    height: 40vh;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+div.line{
+   width: 80%;
+   margin-left: 10%;
+   padding-top: 50px;
+}
+
+div.rule{
+    height: 3px;
+    background-color: #3a3a3a;
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+
+div.copy{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}

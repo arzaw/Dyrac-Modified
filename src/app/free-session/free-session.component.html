@@ -3,18 +3,22 @@
         <div class="container">
             <div class="row justify-content-md-center">
               <div class="col logo">
-                <img src="../../assets/logoW.png" alt="" style="height: 200px; width: auto;">
+                <img src="../../assets/logoW.png" alt="" style="height: 150px; width: auto;">
               </div>
               
               <div class="col home">
                 <div class="home-btn">
-                    <button class="btn btn-primary">Home</button>
+                    <button class="btn btn-primary"
+                    style="background: none; border: none; color: white; font-size: 24px;"
+                    [routerLink]="['/home']" 
+                    >Home</button>
                 </div>
                 
               </div>
             </div>
         </div>
     </div>
+    <br> <br>
     <div class="content">
         <div class="row">
             <div class="col-sm-8 box-a">

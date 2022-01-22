@@ -13,26 +13,54 @@
     -o-background-size: cover;
     background-color: #e5e5e5 ;}
 
-div.navbar{
-    z-index: +1;
+    div.navbar{
         text-align: left;
     }
-.navbar {
-    overflow: hidden;
-    background-color: rgb(255, 250, 235);
-    position: fixed;
-    top: 10px;
-    width: 90vw;
-    height: 3cm;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    border-radius: 10px ;
-}
+    .navbar {
+        overflow: hidden;
+        background-color: rgb(255, 250, 235);
+        position: fixed;
+        top: 10px;
+        width: 90vw;
+        height: 3cm;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        border-radius: 10px ;
+        z-index: +2;
+      }
     
-.nav-btn button{
-    margin-right: 10px ;
-}
-.dyrac{
+    .nav-btn button{
+        margin-right: 10px ;
+    }
+    img.logo{
+        height: 120px;
+        padding-left: 20px;
+    }
+    button.btn-tr{
+        background-color:transparent; border: none; color: black; font-size: 25px; font-weight: 500;
+    }
+    button.btn-bl{
+        color: white; 
+        font-size: 25px; 
+        font-weight: 400; 
+        background-color: black; 
+        border-radius: 0; 
+        height: 2cm; 
+        padding: 10px 30px 10px 30px;
+    }
+    button.btn-wt{
+        color: black; 
+        font-size: 25px; 
+        font-weight: 500; 
+        background-color: white; 
+        border-radius: 0; 
+        height: 2cm; 
+        padding: 10px 30px 10px 30px;
+        border: 5px solid black;
+    }
+
+
+    .dyrac{
     margin-left: 6cm;
     margin-right: 6cm ;
     }
@@ -461,9 +489,37 @@ button{
         display: none;}
     *{
         width: 100%;}
-    .header{
+    .navbar {
+        top: 10px;
+        width: 90%;
+        height: 1.5cm;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    img.logo{
+        height: 60px;
+        }
+    button.btn-tr{
+        font-size: 16px; 
+        width: fit-content;
+    }
+    button.btn-bl{
+        font-size: 16px; 
+        height: 1cm; 
+        padding: 0 0 0 0;
+        width: fit-content;
+
+    }
+    button.btn-wt{
+        font-size: 16px; 
+        height: 1cm; 
+        padding: 5px 5px 5px 5px;
+        border: 3px solid black;
+        width: fit-content;
+
+    }
+    .headerr{
         width: 100vw;}
-    
     
     .dyrac{
         margin-left: auto;

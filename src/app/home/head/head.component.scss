@@ -10,6 +10,7 @@ div.header{
     background-size: 100%;
     text-align: center;
 }
+//navbar
 div.navbar{
     text-align: left;
 }
@@ -29,11 +30,48 @@ div.navbar{
 .nav-btn button{
     margin-right: 10px ;
 }
+img.logo{
+    height: 90px;
+    padding-left: 20px;
+}
+button.btn-tr{
+    background-color:transparent; border: none; color: black; font-size: 25px; font-weight: 500;
+}
+button.btn-bl{
+    color: white; 
+    font-size: 25px; 
+    font-weight: 400; 
+    background-color: black; 
+    border-radius: 0; 
+    height: 2cm; 
+    padding: 10px 30px 10px 30px;
+}
+button.btn-wt{
+    color: black; 
+    font-size: 25px; 
+    font-weight: 500; 
+    background-color: white; 
+    border-radius: 0; 
+    height: 2cm; 
+    padding: 10px 30px 10px 30px;
+    border: 5px solid black;
+}
 
+
+//heading
+h1.prep{
+    font-size: 4rem; 
+    font-weight: bolder; 
+    margin-left: 15vw; 
+    margin-right: 15vw; 
+    color: white;
+}
+
+//three
 div.three{
     margin-top: 10vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 div.first{
     z-index: +1;
@@ -63,11 +101,11 @@ div.type{
     position: absolute;
     top: 75px;
     height: 8cm;
-    width: 70%;
+    width: 80%;
     border-radius: 10px;
     background-color: white;
-    left: 15%;
-    right: 15%;
+    left: 10%;
+    right: 10%;
     z-index: -1;
     
     box-shadow:
@@ -79,6 +117,7 @@ div.type{
   0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
+//event
 div.events{
     margin-top: 40vh;
     padding-bottom: 10vh ;
@@ -101,4 +140,66 @@ div.carou3{
 div.caul-text{
     text-align: left;
     padding-left: 25px;
+}
+
+.caul-img img{
+    height: 300px; 
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 480px){
+    div.header{
+        background-size: 200vh;
+    }
+
+    //navbar
+    .navbar {
+        top: 10px;
+        width: 90%;
+        height: 1.5cm;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+    img.logo{
+        height: 60px;
+    }
+    button.btn-tr{
+         font-size: 16px; 
+    }
+    button.btn-bl{
+        font-size: 16px; 
+        height: 1cm; 
+        padding: 5px 5px 5px 5px;
+    }
+    button.btn-wt{
+        font-size: 16px; 
+        height: 1cm; 
+        padding: 5px 5px 5px 5px;
+        border: 3px solid black;
+    }
+
+    //heading
+    h1.prep{
+        font-size: 2rem; 
+        font-weight: bolder; 
+        margin-left: 10vw; 
+        margin-right: 10vw; 
+        color: white;
+    }
+
+    //three
+    div.second{
+        margin-top: 7cm;
+    }
+    div.third{
+        margin-top: 7cm;
+    }
+
+    .caul-img img{
+        height: 150px;
+    }
+
+    div.caul-text{
+        text-align: center;
+    }
 }

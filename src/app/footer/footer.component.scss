@@ -3,10 +3,11 @@
     padding: 0;
 }
 div.footer{
-    height: 40vh;
+    height: fit-content;
     background-color: black;
     color: white;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 div.line{
@@ -27,4 +28,10 @@ div.copy{
     font-size: 22px;
     text-align: center;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+    div.cen{
+        text-align: center;
+    }
 }

@@ -7,6 +7,15 @@ div.cont{
     height: 100vh;
     padding: 20vh 15% 20vh 15%;
 }
+div.cont-head{
+    font-size: 40px; 
+    font-weight: bolder; 
+    color: black;
+}
+div.cont-pt{
+    font-size: 30px; 
+    color: black; 
+}
 
 div.view{
     background: #efefef;
@@ -16,7 +25,9 @@ div.view{
 div.crack{
     padding: 20vh 20vw 20vh 20vw;
 }
-
+div.crack-head{
+    width: 45vw;
+}
 div.review{
     padding: 10vh 10vw 10vh 10vw;
     background: #efefef;
@@ -32,4 +43,20 @@ input{
 
 textarea{
     border: 2px solid rgb(94, 94, 94);
+}
+
+@media screen and (max-width: 480px){
+    div.cont-head{
+        font-size: 30px; 
+    }
+    div.cont-pt{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    div.crack{
+        padding: 10% 7% 10% 7%;
+    }
+    div.crack-head{
+        width: 100%;
+    }
 }

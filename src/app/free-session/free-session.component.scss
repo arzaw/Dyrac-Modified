@@ -138,3 +138,27 @@ div.note{
     color: #767676;
     margin-top: 10px;
 }
+
+
+@media screen and (max-width: 480px){
+    div.header{
+        padding-top: 5vh;
+    }
+    div.logo{
+        text-align: center;
+    }
+    div.home{
+        text-align: center;
+    }
+    div.content{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    div.box-a{
+        border: 7px 7px 7px 7px;
+    }
+    
+    div.box-b{
+        border: 7px;
+    }
+}

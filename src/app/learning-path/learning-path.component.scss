@@ -32,8 +32,11 @@
     .nav-btn button{
         margin-right: 10px ;
     }
+    div.nav-btn{
+        text-align: right; margin-right: 10px;
+    }
     img.logo{
-        height: 120px;
+        height: 90px;
         padding-left: 20px;
     }
     button.btn-tr{
@@ -58,7 +61,6 @@
         padding: 10px 30px 10px 30px;
         border: 5px solid black;
     }
-
 
     .dyrac{
     margin-left: 6cm;
@@ -489,35 +491,44 @@ button{
         display: none;}
     *{
         width: 100%;}
-    .navbar {
-        top: 10px;
-        width: 90%;
-        height: 1.5cm;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    img.logo{
-        height: 60px;
+        .navbar {
+            top: 10px;
+            width: 90%;
+            height: 1.5cm;
+            margin-left: 5%;
+            margin-right: 5%;
+          }
+        img.logo{
+            height: 40px;
+            padding-left: 0px;
         }
-    button.btn-tr{
-        font-size: 16px; 
-        width: fit-content;
-    }
-    button.btn-bl{
-        font-size: 16px; 
-        height: 1cm; 
-        padding: 0 0 0 0;
-        width: fit-content;
-
-    }
-    button.btn-wt{
-        font-size: 16px; 
-        height: 1cm; 
-        padding: 5px 5px 5px 5px;
-        border: 3px solid black;
-        width: fit-content;
-
-    }
+        div.nav-btn{
+            text-align: left;
+        }
+        .nav-btn button{
+            margin-right: 5px;
+        }
+        button.btn-tr{
+             font-size: 16px; 
+            width: fit-content;
+            margin: 0;
+        }
+        button.btn-bl{
+            font-size: 16px; 
+            height: 1cm; 
+            width: fit-content;
+            padding: 5px 5px 5px 5px;
+        }
+        button.btn-wt{
+            font-size: 16px; 
+            height: 1cm; 
+            width: fit-content;
+            padding: 5px 5px 5px 5px;
+            border: 3px solid black;
+        }
+        div.nav-btn{
+            width: 80%;
+        }
     .headerr{
         width: 100vw;}
     

@@ -12,6 +12,7 @@ import { EventComponent } from './event/event.component';
 import { FooterComponent } from './footer/footer.component';
 import { LearningPathComponent } from './learning-path/learning-path.component';
 import { BodyComponent } from './home/body/body.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { BodyComponent } from './home/body/body.component';
     EventComponent,
     FooterComponent,
     LearningPathComponent,
-    BodyComponent
+    BodyComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,19 +1,136 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+.stic{
+    height: 2cm;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+//upper
+
 div.upper{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 20vh 10% 10vh 10%;
 }
+.upper-head{
+    color: #034078;
+    font-size: 64px;
+    font-weight: bold;
+}
+.upper-desc{
+    margin-top: 5%;
+    color: #262626;
+    font-size: 18px;
+}
+.upper-img{
+    text-align: right;
+}
+//middle
 
 div.middle{
     background: #efefef;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: auto 5% auto 5%;
+    text-align: center;
 }
-
+.middle-head{
+    font-size: 48px;
+    color: #034078;
+    padding-top: 15vh;
+    margin-bottom: 10vh;
+}
+.box-desc{
+    margin: auto 15px auto 15px;
+}
+.about-head{
+    font-size: 36px;
+    color: #061840;
+    margin: 5% auto 5% auto;
+}
+.about-desc{
+    font-size: 24px;
+    color: #1f1f1f;
+    margin-bottom: 20%;
+}
+//lower
+div.lower{
+    text-align: center;
+}
+.lower_head{
+    color: #034078;
+    font-size: 48px;
+    margin: 20vh auto 20vh auto;
+}
 img.dp_round{
     height: 150px;
     border-radius: 50%;
+}
+.box-team{
+    margin: 5vh 5vw 10vh 5vw;
+}
+.team-head{
+    font-size: 24px;
+}
+.team-desc{
+    font-size: 18px;
+    color: #262626;
+}
+.team-desig{
+    font-size: 18px;
+    color: #001F54;
+}
+
+@media screen and (max-width: 440px){
+
+    //upper
+    div.upper{
+        text-align: center;
+        padding: 10vh 10% 10vh 10%;
+    }
+    .upper-img img{
+        width: 300px;
+    }
+    .upper-desc{
+        margin-bottom: 10%;
+        font-size: 15px;
+    }
+
+    //middle
+    .middle-head{
+        font-size: 40px;
+        color: #034078;
+        padding-top: 10vh;
+        margin-bottom: 7vh;
+    }
+    .about-head{
+        font-size: 30px;
+    }
+    .about-desc{
+        font-size: 20px;
+        margin-bottom: 20%;
+    }
+
+    //lower
+    
+    .lower_head{
+        font-size: 40px;
+        margin: 5vh auto 5vh auto;
+    }
+    img.dp_round{
+        height: 100px;
+    }
+    .box-team{
+        margin: 5vh 5vw 5vh 5vw;
+        width: 80%;
+    }
+    .team-head{
+        font-size: 20px;
+    }
+    .team-desc{
+        font-size: 15px;
+    }
+    .team-desig{
+        font-size: 15px;
+    }
 }

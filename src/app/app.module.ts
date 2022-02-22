@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LearningPathComponent } from './learning-path/learning-path.component';
 import { BodyComponent } from './home/body/body.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     FooterComponent,
     LearningPathComponent,
     BodyComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
